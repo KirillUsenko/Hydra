@@ -1,0 +1,18 @@
+.textarea {
+    resize: vertical;
+    width: 100%;
+    background-color: #F1F1F1;
+    border: 0;
+    padding: 10px;
+    border-radius: 2px;
+    font-family: 'Montserrat';
+    font-size: 12px;
+
+    &:focus {
+        outline: 0;
+    }
+
+    &::placeholder {
+        color: #B4B4BA;
+    }
+}

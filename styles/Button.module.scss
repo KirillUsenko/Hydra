@@ -1,0 +1,37 @@
+.button_active {
+  border-radius: 2px;
+  background-color: #FF8126;
+  text-align: center;
+  color: #fff;
+  border: 0;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: block;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+
+.button {
+  cursor: pointer;
+  border-radius: 2px;
+  background-color: #525256;
+  text-align: center;
+  color: #fff;
+  border: 0;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+}
+
+.button:focus {
+  outline: 0;
+}

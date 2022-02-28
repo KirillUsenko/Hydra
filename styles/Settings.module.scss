@@ -1,0 +1,45 @@
+.settings {
+  width: 280px;
+  background: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.settings__content {
+  min-height: 90vh;
+  padding-bottom: 30px;
+  border-top-left-radius: 30px;
+  background: #313133;
+  width: inherit;
+  padding: 50px;
+  color: #fff;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.name {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+}
+
+.image {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #FF8126;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 15px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}

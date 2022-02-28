@@ -1,0 +1,104 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0 20px 0;
+}
+
+h1.title {
+  margin: 0;
+}
+
+.arrow {
+  cursor: pointer;
+  background: 0;
+  padding: 0;
+  border: 0;
+  margin-bottom: -5px;
+
+  &:focus {
+    outline: 0;
+  }
+
+  & svg rect {
+    transition: fill .3s ease;
+  }
+
+  &:hover svg rect {
+    fill: #FF8126;
+  }
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filter {
+  display: block;
+  border: 0;
+  background: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: 'Montserrat';
+  color: #8D8D8D;
+  transition: color .3s ease;
+
+  &:hover {
+    color: #313133;
+  }
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.filter_active {
+  color: #313133;
+}
+
+.weekdays {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.weekday {
+  display: block;
+  width: 105px;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  color: #313133;
+}
+
+.days {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+
+  &:first-child {
+    margin-bottom: 10px;
+  }
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.label {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #848489;
+}

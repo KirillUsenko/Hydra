@@ -1,0 +1,36 @@
+.modal__back {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    bottom: 0;
+    background-color: #313133;
+    opacity: .6;
+    display: none;
+}
+
+.modal__back_active {
+    display: block;
+}
+
+.modal__content {
+    display: none;
+    background-color: #fff;
+    border-radius: 10px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 11;
+    padding: 30px;
+    width: 450px;
+    min-height: 187px;
+    height: min-content;
+}
+
+.modal__content_active {
+    display: block;
+}

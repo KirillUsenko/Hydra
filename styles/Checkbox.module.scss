@@ -1,0 +1,43 @@
+.checkbox {
+  position: relative;
+}
+
+.label {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  font-size: 13px;
+  width: inherit;
+  height: inherit;
+  top: 0;
+  left: 0;
+}
+
+.label:before {
+  content: "";
+  display: inline-block;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 2px;
+  background-color: #525256;
+  border-radius: 2px;
+}
+
+.check {
+  opacity: 0;
+  margin: 0;
+  width: inherit;
+  height: inherit;
+  position: relative;
+  z-index: 3;
+}
+
+.check:checked + .label:before {
+  content: url('../public/checkbox/arrow.svg');
+  background-color: #FF8126;
+  text-align: center;
+  line-height: 18px;
+}

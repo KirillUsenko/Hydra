@@ -1,0 +1,36 @@
+.menu {
+  margin-bottom: 10px;
+}
+
+.menu__item {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.menu__item:not(:last-child) {
+  margin-right: 55px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  width: 585px;
+  margin: auto;
+  position: relative;
+}
+
+.checkbox {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.modalflex {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}

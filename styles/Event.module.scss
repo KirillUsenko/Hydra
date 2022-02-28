@@ -1,0 +1,88 @@
+.event {
+  width: 585px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.event__inner {
+  min-height: 35px;
+  background-color: #1882E4;
+  border-radius: 2px;
+  color: #fff;
+  width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.item {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.event__inner > span:not(:last-child) {
+  margin-right: 40px;
+}
+
+.event__inner_ondisplay {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.event__inner_ondisplay::after {
+  transform: rotate(180deg);
+}
+
+.event__inner::after {
+  content: "";
+  display: block;
+  width: 9px;
+  height: 13px;
+  background-color: #fff;
+  position: absolute;
+  right: 15px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: url('../public/events/arrow.svg') no-repeat center;
+}
+
+.event__content {
+  background: #E9F4FF;
+  padding: 10px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  text-align: left;
+  width: 550px;
+}
+
+.event__content > span {
+  font-size: 14px;
+  color: #656565;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+.event__buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.event__content_inactive {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  margin-right: 15px;
+  margin-top: 8px;
+}

@@ -1,0 +1,58 @@
+.container {
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 4px;
+    background: url('../public/settings/menu/arrow.svg') no-repeat center;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+  }
+
+  &:focus {
+    background: red;
+  }
+}
+
+.select {
+  background-color: #525256;
+  color: #fff;
+  border: 0;
+  font-size: 12px;
+  font-family: 'Montserrat';
+  padding-left: 10px;
+  border-radius: 2px;
+  appearance: none;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  color: #848489;
+}
+
+.select_white {
+  background-color: #F1F1F1;
+  color: #313133;
+}
+
+.container_white {
+  &::after {
+    background: url('../public/settings/menu/arrow-white.svg') no-repeat center;
+  }
+}
