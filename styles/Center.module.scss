@@ -1,8 +1,9 @@
 .center {
   background-color: #fff;
   width: 100vw;
-  min-height: 100vh;
+  max-height: 100vh;
   margin-left: -30px;
+  overflow-y: auto;
   padding-left: 30px;
   position: relative;
   z-index: 2;
